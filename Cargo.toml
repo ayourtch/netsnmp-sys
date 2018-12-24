@@ -1,7 +1,7 @@
 [package]
 name = "netsnmp-sys"
 description = "Rust FFI bindings to Net-SNMP"
-version = "0.1.1"
+version = "0.1.1-ayourtch"
 authors = ["Hroi Sigurdsson <hroi@asdf.dk>"]
 keywords = ["networking", "snmp"]
 repository = "https://github.com/hroi/netsnmp-sys"
