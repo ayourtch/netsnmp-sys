@@ -160,8 +160,8 @@ pub const ASN_DOUBLE:       raw::c_uchar = (ASN_APPLICATION |  9);
 pub const ASN_INTEGER64:    raw::c_uchar = (ASN_APPLICATION | 10);
 pub const ASN_UNSIGNED64:   raw::c_uchar = (ASN_APPLICATION | 11);
 
-pub const USM_AUTH_KU_LEN: usize = 32;
-pub const USM_PRIV_KU_LEN: usize = 32;
+pub const USM_AUTH_KU_LEN: usize = 256;
+pub const USM_PRIV_KU_LEN: usize = 256;
 
 pub const NETSNMP_CALLBACK_OP_RECEIVED_MESSAGE: raw::c_int = 1;
 pub const NETSNMP_CALLBACK_OP_TIMED_OUT:        raw::c_int = 2;
